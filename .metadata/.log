@@ -1,0 +1,105 @@
+!SESSION 2012-09-29 19:41:49.996 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 4 4 2012-09-29 19:42:46.402
+!MESSAGE Referenced part does not exist yet: org.eclipse.cdt.ui.CView.
+
+!ENTRY org.eclipse.osgi 2 1 2012-09-29 19:43:24.578
+!MESSAGE NLS missing message: MemoryDumper_dialog_invalidHeaderError in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-09-29 19:52:44.248
+!MESSAGE Indexed 'Blink_LED' (1 sources, 19 headers) in 2.01 sec: 398 declarations; 450 references; 4 unresolved inclusions; 0 syntax errors; 7 unresolved names (0.82%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 19:58:13.734
+!MESSAGE DS_ERROR: MSP430: Error connecting to the target: The target setup (MSP430G2xx3) does not match the actual target type (F20x2_G2x2x_G2x3x)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 19:58:14.326
+!MESSAGE DS_ERROR: Error connecting to the target:
+The target setup (MSP430G2xx3) does not match the actual target type (F20x2_G2x2x_G2x3x)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 19:58:25.246
+!MESSAGE DS_ERROR: MSP430: Error connecting to the target: The target setup (MSP430G2xx3) does not match the actual target type (F20x2_G2x2x_G2x3x)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 19:58:25.293
+!MESSAGE DS_ERROR: Error connecting to the target:
+The target setup (MSP430G2xx3) does not match the actual target type (F20x2_G2x2x_G2x3x)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 19:58:31.830
+!MESSAGE DS_ERROR: MSP430: Trouble Writing Memory Block at 0xc000 on Page 0 of Length 0x14e: Could not write device memory
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 19:58:31.908
+!MESSAGE DS_ERROR: MSP430: GEL: File: C:\Users\Meow\workspace_v5_2\Blink_LED\Debug\Blink_LED.out: Load failed.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 19:59:13.758
+!MESSAGE DS_ERROR: MSP430: Error connecting to the target: The target setup (MSP430G2xx3) does not match the actual target type (F20x2_G2x2x_G2x3x)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 19:59:14.163
+!MESSAGE DS_ERROR: Error connecting to the target:
+The target setup (MSP430G2xx3) does not match the actual target type (F20x2_G2x2x_G2x3x)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-29 20:03:51.248
+!MESSAGE DS_ERROR: MSP430: GEL: Encountered a problem loading file: C:\Users\Meow\workspace_v5_2\Blink_LED\Debug\Blink_LED.out Could not open file
+
+!SESSION 2012-09-29 21:12:17.539 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-09-29 21:12:38.212
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.ccstudio.debug.server 4 214294189 2012-09-29 21:12:45.996
+!MESSAGE Unexpected CCS exit detected [9/29/12 7:42 PM]!!!
+
+!ENTRY org.eclipse.ui 4 4 2012-09-29 21:12:57.369
+!MESSAGE Referenced part does not exist yet: org.eclipse.cdt.ui.CView.
+
+!ENTRY org.eclipse.osgi 2 1 2012-09-29 21:15:50.802
+!MESSAGE NLS missing message: MemoryDumper_dialog_invalidHeaderError in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+!SESSION 2012-09-30 20:39:19.955 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.osgi 2 1 2012-09-30 20:41:04.834
+!MESSAGE NLS missing message: MemoryDumper_dialog_invalidHeaderError in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-30 20:43:06.827
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-30 20:43:07.248
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-30 20:47:51.460
+!MESSAGE DS_ERROR: MSP430: GEL: Encountered a problem loading file: C:\Users\Meow\workspace_v5_2\Blink_LED\Debug\Blink_LED.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-30 20:50:06.946
+!MESSAGE DS_ERROR: MSP430: GEL: Encountered a problem loading file: C:\Users\Meow\workspace_v5_2\Blink_LED\Debug\Blink_LED.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-30 20:51:16.710
+!MESSAGE DS_ERROR: MSP430: GEL: Encountered a problem loading file: C:\Users\Meow\workspace_v5_2\Blink_LED\Debug\Blink_LED.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2012-09-30 20:52:02.621
+!MESSAGE DS_ERROR: MSP430: GEL: Encountered a problem loading file: C:\Users\Meow\workspace_v5_2\Blink_LED\Debug\Blink_LED.out Could not open file
+
