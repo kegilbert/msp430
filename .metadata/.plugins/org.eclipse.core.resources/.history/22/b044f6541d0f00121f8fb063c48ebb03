@@ -1,22 +1,12 @@
 #include <msp430g2553.h>
-/***********************************************/
-/*              ifdef defines                  */
-//
-//#define EXTERNALLED
-#define TRANSISTOR
-/***********************************************/
+#define EXTERNALLED
+
 /*
  * main.c
  */
 	unsigned int i = 0;                         // Initialize variables. This will keep count of how many cycles between LED toggles
 
-/***********************************************************/
-/*             External Function Declarations              */
-//
 void ExternalLED(void);
-void TransistorTest(void);
-//
-/***********************************************************/
 
 	void main(void)
 	{
@@ -27,12 +17,6 @@ void TransistorTest(void);
 		  ExternalLED();
 	  }
 
-#endif
-
-#ifdef TRANSISTOR
-	for(;;){
-		TransistorTest();
-	}
 #endif
 	  P1DIR |= 0x41;                            // P1DIR is a register that configures the direction (DIR) of a port pin as an output or an input.
 
