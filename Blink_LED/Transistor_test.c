@@ -1,4 +1,4 @@
-/*
+	/*
  * Transistor_test.c
  *
  *	Create test voltage from 1.0 toggled from pin 1.3 button
@@ -12,26 +12,27 @@
 #define VIN_DIR P1DIR
 #define VIN_DATA P1OUT
 #define VIN_0 BIT0
+#define VIN_6 BIT6
 #define BUTTON BIT3
 
 void TransistorTest(void);
 
 void TransistorTest(void) {
-	unsigned int counter=0;
-	VIN_DIR |= VIN_0;		// Pin 1.0 will be the input voltage to the transistor
+	unsigned int bSwitch = 0;
+
 	VIN_DIR &= 0xF7;		// Pin 1.3 (button) is input
+	VIN_DIR |= (VIN_0 + VIN_6);	// Pin 1.0 will be the input voltage to the transistor, 1.6 will be output LED corresponding w/ button
+	VIN_DATA |= (VIN_0 + VIN_6);
 
 	for(;;) {
-		if((VIN_DATA & 0x08) == 0x08) {
-			counter++;
+		if ( !((P1IN)&(BIT3))  )
+			bSwitch++;
+		if(bSwitch%2 != 0)
+			VIN_DATA |= (VIN_0 + VIN_6);
+		else {
+			VIN_DATA &= ~(VIN_0 + VIN_6);
 		}
-		if((counter%2) != 0) {		// if counter is odd, button was pressed, toggle 1.0 on
-			VIN_DATA |= 0x01;
-		} else {
-			VIN_DATA &= 0xFE;
-		}
+		__delay_cycles(150000);		// Works moderately well, but still allows errors when rapidly pressed or held too long, consider interrupts (External_LED.c)
 	}
 }
-
-
 
