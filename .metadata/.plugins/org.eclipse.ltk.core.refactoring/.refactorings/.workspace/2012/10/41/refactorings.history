@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Blink_LED/LCD.c&apos;" deleteContents="false" description="Delete resource &apos;Blink_LED/LCD.c&apos;" element1="/Blink_LED/LCD.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1349933459625"/>&#x0A;<refactoring comment="Delete resource &apos;LCD&apos;" deleteContents="false" description="Delete resource &apos;LCD&apos;" element1="/LCD" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1349933750187"/>
+</session>
