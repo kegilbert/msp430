@@ -6,4 +6,4 @@
 
 1.) Send a PWM signal to a servo
 	- servo.c
-		a.) lt and lut undefined
+		a.) lt and lut undefined (LUT = Look Up Table)
