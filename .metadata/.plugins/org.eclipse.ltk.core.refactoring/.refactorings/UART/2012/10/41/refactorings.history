@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UART/calibrations.h.txt&apos; to &apos;calibrations.h&apos;" description="Rename resource &apos;calibrations.h.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="calibrations.h.txt" name="calibrations.h" stamp="1350159274250" updateReferences="true"/>
+</session>

@@ -17,21 +17,22 @@ C:\ti\ccsv5\utils\bin\gmake -k all
 "../UARTtranseiver.c", line 135: remark #1545-D: (ULP 14.1) Array index using signed "int". Recommend using unsigned "unsigned int"
 'Finished building: ../UARTtranseiver.c'
 ' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.1/bin/cl430" -vmsp --abi=eabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.1.1/include" --advice:power=all --define=__MSP430G2231__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
 'Building target: UART.out'
 'Invoking: MSP430 Linker'
 "C:/ti/ccsv5/tools/compiler/msp430_4.1.1/bin/cl430" -vmsp --abi=eabi -g --advice:power=all --define=__MSP430G2231__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z --stack_size=50 -m"UART.map" --heap_size=0 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430_4.1.1/lib" -i"C:/ti/ccsv5/tools/compiler/msp430_4.1.1/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --rom_model -o "UART.out"  "./main.obj" "./UARTtranseiver.obj" -l"libc.a" "../lnk_msp430g2231.cmd" 
 <Linking>
 remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
-error #10056: symbol "main" redefined: first defined in "./main.obj"; redefined in "./UARTtranseiver.obj"
 "../lnk_msp430g2231.cmd", line 80: warning #10374-D: Interrupt vector "PORT2" does not have an interrupt handler routine.
 "../lnk_msp430g2231.cmd", line 81: warning #10374-D: Interrupt vector "USI" does not have an interrupt handler routine.
 "../lnk_msp430g2231.cmd", line 82: warning #10374-D: Interrupt vector "ADC10" does not have an interrupt handler routine.
 "../lnk_msp430g2231.cmd", line 87: warning #10374-D: Interrupt vector "WDT" does not have an interrupt handler routine.
 "../lnk_msp430g2231.cmd", line 91: warning #10374-D: Interrupt vector "NMI" does not have an interrupt handler routine.
-error #10010: errors encountered during linking; "UART.out" not built
-
->> Compilation failure
-gmake: *** [UART.out] Error 1
-gmake: Target `all' not remade because of errors.
+'Finished building target: UART.out'
+' '
 
 **** Build Finished ****

@@ -1459,3 +1459,51 @@ Caused by: java.io.IOException: CreateProcess error=14001, The application has f
 	at java.lang.ProcessImpl.<init>(Unknown Source)
 	at java.lang.ProcessImpl.start(Unknown Source)
 	... 10 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-10-13 15:18:13.109
+!MESSAGE Indexed 'Motor_Control' (1 sources, 19 headers) in 1.30 sec: 398 declarations; 450 references; 4 unresolved inclusions; 0 syntax errors; 7 unresolved names (0.82%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-10-13 15:18:14.671
+!MESSAGE Indexed 'Motor_Control' (1 sources, 19 headers) in 0.41 sec: 398 declarations; 450 references; 4 unresolved inclusions; 0 syntax errors; 7 unresolved names (0.82%)
+!SESSION 2012-10-19 19:14:40.263 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-10-19 19:14:49.466
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.ccstudio.debug.server 4 214294189 2012-10-19 19:14:59.201
+!MESSAGE Unexpected CCS exit detected [10/12/12 9:52 PM]!!!
+
+!ENTRY org.eclipse.osgi 2 1 2012-10-19 19:16:15.201
+!MESSAGE NLS missing message: MemoryDumper_dialog_invalidHeaderError in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY com.ti.ccstudio.ui 4 0 2012-10-19 19:16:29.747
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.ui'.
+!STACK 0
+java.io.IOException: Cannot run program "C:\ti\ccsv5\ccs_base\DebugServer\bin\win32\ErrorReportingTool.exe": CreateProcess error=14001, The application has failed to start because its side-by-side configuration is incorrect. Please see the application event log or use the command-line sxstrace.exe tool for more detail
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at com.ti.ccstudio.ui.CCStudioUIStartup.execErrorReportingTool(CCStudioUIStartup.java:139)
+	at com.ti.ccstudio.ui.CCStudioUIStartup.earlyStartup(CCStudioUIStartup.java:55)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2470)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: CreateProcess error=14001, The application has failed to start because its side-by-side configuration is incorrect. Please see the application event log or use the command-line sxstrace.exe tool for more detail
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 10 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-10-20 02:59:40.334
+!MESSAGE Indexed 'driverlib-cm4f' (29 sources, 77 headers) in 7.53 sec: 4,842 declarations; 11,109 references; 4 unresolved inclusions; 0 syntax errors; 7 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-10-20 02:59:46.522
+!MESSAGE Indexed 'driverlib-cm3' (29 sources, 77 headers) in 6.16 sec: 4,842 declarations; 11,109 references; 4 unresolved inclusions; 0 syntax errors; 7 unresolved names (0.04%)

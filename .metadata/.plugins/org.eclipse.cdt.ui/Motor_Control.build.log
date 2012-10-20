@@ -1,0 +1,34 @@
+
+**** Build of configuration Debug for project Motor_Control ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.1/bin/cl430" -vmsp --abi=eabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.1.1/include" --advice:power=all --define=__MSP430G2231__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../servo.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.1/bin/cl430" -vmsp --abi=eabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.1.1/include" --advice:power=all --define=__MSP430G2231__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="servo.pp"  "../servo.c"
+"../servo.c", line 34: error #20: identifier "lt" is undefined
+"../servo.c", line 34: warning #176-D: expression has no effect
+"../servo.c", line 34: error #18: expected a ")"
+"../servo.c", line 68: warning #176-D: expression has no effect
+"../servo.c", line 68: error #18: expected a ")"
+"../servo.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../servo.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../servo.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../servo.c", line 65: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../servo.c", line 68: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../servo.c", line 70: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../servo.c", line 25: remark #1535-D: (ULP 8.1) variable "servo_stepval" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../servo.c", line 73: error #171: expected a declaration
+"../servo.c", line 20: remark #1535-D: (ULP 8.1) variable "PWM_Period" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../servo.c", line 21: remark #1535-D: (ULP 8.1) variable "PWM_Duty" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+4 errors detected in the compilation of "../servo.c".
+
+>> Compilation failure
+gmake: *** [servo.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

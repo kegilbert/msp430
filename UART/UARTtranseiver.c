@@ -38,7 +38,7 @@ void TA_init(void);
 void tx_byte(char byte);
 void tx_string(char *message);
 
-void main(void) {
+void UARTtransceiver(void) {
     char *message;		// pointer to array to store messages to send.
 
     WDTCTL = WDTPW + WDTHOLD;

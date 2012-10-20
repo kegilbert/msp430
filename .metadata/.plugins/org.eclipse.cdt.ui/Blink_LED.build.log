@@ -2,13 +2,13 @@
 **** Build of configuration Debug for project Blink_LED ****
 
 C:\ti\ccsv5\utils\bin\gmake -k all 
-'Building file: ../Transistor_test.c'
+'Building file: ../main.c'
 'Invoking: MSP430 Compiler'
-"C:/ti/ccsv5/tools/compiler/msp430_4.1.1/bin/cl430" -vmsp --abi=eabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.1.1/include" --advice:power=all --define=__MSP430G2231__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="Transistor_test.pp"  "../Transistor_test.c"
-"../Transistor_test.c", line 31: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to variable "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
-"../Transistor_test.c", line 30: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
-"../Transistor_test.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
-'Finished building: ../Transistor_test.c'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.1/bin/cl430" -vmsp --abi=eabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.1.1/include" --advice:power=all --define=__MSP430G2231__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 60: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to variable "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
+"../main.c", line 68: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 68: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../main.c'
 ' '
 'Building target: Blink_LED.out'
 'Invoking: MSP430 Linker'

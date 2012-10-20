@@ -1,9 +1,9 @@
-#include <msp430g2553.h>
+ 	 #include <msp430g2553.h>
 /***********************************************/
 /*              ifdef defines                  */
 //
 //#define EXTERNALLED
-#define TRANSISTOR
+//#define TRANSISTOR
 /***********************************************/
 /*
  * main.c
