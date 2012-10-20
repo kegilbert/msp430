@@ -1,0 +1,10 @@
+
+**** Clean-only build of configuration Debug for project driverlib-cm4f ****
+
+C:\ti\ccsv5\utils\bin\gmake -k clean 
+gmake: *** No rule to make target `clean'.
+
+**** Build Finished ****
+Buildfile generation error occurred..
+This project was created for a device-variant that is not currently recognized: Cortex M.LM4F110B2QR. Please install the device-variant descriptor, or migrate the project to one of the supported device-variants by adjusting project properties.
+Build stopped..

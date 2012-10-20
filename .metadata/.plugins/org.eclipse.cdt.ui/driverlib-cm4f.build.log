@@ -1,0 +1,3 @@
+Buildfile generation error occurred..
+This project was created for a device-variant that is not currently recognized: Cortex M.LM4F110B2QR. Please install the device-variant descriptor, or migrate the project to one of the supported device-variants by adjusting project properties.
+Build stopped..
